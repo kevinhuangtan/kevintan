@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background-color: rgb(254,254,254);
+  font-family: 'Lato', sans-serif!important;
+  color: #404040;
+  font-size: 16px;
+
+}
+
+@media (min-width:800px) {
+  body{
+    font-size: 20px;
+  }
+}
+
+a{
+  text-decoration: none;
+  transition: all 300ms linear;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.fadeIn{
+  -webkit-animation: fadein 1s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1s ease-in-out; /* Firefox < 16 */
+          animation: fadein 1s ease-in-out;
+}
+
+@keyframes fadein {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to   {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to   {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to   {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+}

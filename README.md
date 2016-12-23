@@ -1,4 +1,3 @@
 # kevintan.me
 
-## my digital identity
-# kevintan
+my digital identity
