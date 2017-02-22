@@ -19,7 +19,7 @@ app.get('/resume', function (req, res)
 
 
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
 app.listen(app.get('port'), function(err) {
