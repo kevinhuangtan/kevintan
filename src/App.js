@@ -53,7 +53,7 @@ class App extends Component {
           <p><a target="_blank" href="https://twitter.com/iamktizzel">twitter</a> - @iamktizzel</p>
           <p><a target="_blank" href="http://vsco.co/iamktizzel/collection/1">vsco</a> - some moody pics</p>
           <p><a target="_blank" href="https://soundcloud.com/kevintan">soundcloud</a> - 🎹 🎸and hip-hop beats</p>
-          <br/><br/><br/>
+          <br/>
         </div>
         <p style={{
             textAlign:'right',
