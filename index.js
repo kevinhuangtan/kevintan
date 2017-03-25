@@ -15,11 +15,10 @@ app.use(express.static('build'));
 app.get('/resume', function (req, res)
 {
   res.sendFile(__dirname + '/public/resume.pdf');
-})
-
+});
 
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname, '/public/index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(app.get('port'), function(err) {

@@ -44,7 +44,7 @@ class App extends Component {
           <p>entrepreneur and software engineer</p>
           <p>Yale 2016, BS Physics</p>
           <p>_______</p>
-          <p><a target="_blank" href="/resume">resume</a></p>
+          <p><a target="_blank" href="https://www.dropbox.com/s/u4a2aenlmegalsv/resume.pdf?dl=0">resume</a></p>
           <p><a target="_blank" href="mailto:hello@kevintan.me">hello@kevintan.me</a></p>
           <p>_______</p>
           <p><a target="_blank" href="https://github.com/kevinhuangtan">github</a> - react and node 👌🏽</p>
