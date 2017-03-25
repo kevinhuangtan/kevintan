@@ -23,7 +23,7 @@ class App extends Component {
             <img
               className="fadeIn"
               style={{
-                width: mobile ? 180 : 250
+                width: mobile ? 180 : 280
               }} src={image} />
           </div>
           <div>
